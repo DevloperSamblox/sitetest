@@ -36,6 +36,16 @@
 export default {
   name: 'IndexPage'
 }
+console.log('\x1b[36m%s\x1b[0m', `Olá, Conheça o console... 
+aqui e um local incrivel
+mas não existe nada que você pode, entedemos que você e um hackerman...
+se você acredita que consegue nos hackear... por aqui 
+deveria entrar na nossa equipe nos precisamos de você
+
+>>>Caso tenha certeza que consiga<<<
+entre no grupo oficial com o codigo secreto dos hackers
+"208552410230" vamos enteder que você quer entrar pra equipe
+iremos testar sua capacidade :)`); 
 </script>
 
 <style>
