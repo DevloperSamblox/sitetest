@@ -954,6 +954,11 @@
   "resolved" "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.2.tgz"
   "version" "1.1.2"
 
+"@heroicons/vue@^1.0.5":
+  "integrity" "sha512-idWtp20Fjr7mqnD7EdGDUDi83oWHnx3SwyuQY6GZyF33OApzpBOLxz7xa4t6rPOddGz9tI5RGnndLk+ake7ijQ=="
+  "resolved" "https://registry.npmjs.org/@heroicons/vue/-/vue-1.0.5.tgz"
+  "version" "1.0.5"
+
 "@koa/router@^9.0.1":
   "integrity" "sha512-dOOXgzqaDoHu5qqMEPLKEgLz5CeIA7q8+1W62mCvFVCOqeC71UoTGJ4u1xUSOpIl2J1x2pqrNULkFteUeZW3/A=="
   "resolved" "https://registry.npmjs.org/@koa/router/-/router-9.4.0.tgz"
@@ -8771,7 +8776,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2.0.0", "vue@^2.6.12", "vue@^2.6.14":
+"vue@^2.0.0", "vue@^2.6.12", "vue@^2.6.14", "vue@>= 3":
   "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
   "version" "2.6.14"
