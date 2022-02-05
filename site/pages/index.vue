@@ -58,12 +58,14 @@
 </div>
 
 
-<div class="div2">
-  <p>teste</p>
-</div>
+
+
+
+
 
 
 </div>
+
 
 
 </template>
@@ -111,5 +113,10 @@ body {
 
 .div2 {
   padding-top: 500px;
+  color: white;
+  font-size: 1.875rem;
+line-height: 2.25rem;
 }
+
+
 </style>
