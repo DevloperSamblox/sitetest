@@ -42,15 +42,36 @@
   <br>este bot foi feito para ajudar controlar seu servidor
   <br>e divertir-lo ao mesmo tempo
   </p>
+  <p class="opacity-75">Versão Pre-Alpha 0.0.1</p>
 </div>
+
     <div>
       <a href="#" class="md:hidden inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Adicionar</a>
     </div>
 
 
 
+<div class="txtpss">
+  <p class=" text-center text-2xl "> Porque usar Back?</p>
+  <p class=" text-center text-1xl opacity-45">
+    Back+ possui uma rede decentralizada super tecnologica que conecta você 
+    <br>
+    em servidores super potentes e com uma internet incrivel
+    <br>
+    enviamos dados pro discord de forma quase instanea 
+    <br>
+    Oque garante você ouvir suas musicas, moderar seu servidor, e se divertir
+    <br>
+    com a melhor qualidade, e o melhor de tudo e 100% gratis !
+  </p>
 
-
+</div>
+<footer class="bg-gray-200 text-center lg:text-left">
+  <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-gray-800" href="https://tailwind-elements.com/">Tailwind Elements</a>
+  </div>
+</footer>
 
 </div>
 
@@ -83,7 +104,7 @@ iremos testar sua capacidade :)`);
 <style>
 
 body {
-  background-color: #202124
+  background-color: #202124;
 }
 
 .txtps {
@@ -96,7 +117,10 @@ body {
      color: white
 }
 
-
+.txtpss {
+  padding-top: 400px;
+  color: white
+}
 
 .div2 {
   padding-top: 500px;
