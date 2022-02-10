@@ -1,3 +1,4 @@
+
 <template>
 <div>
   
@@ -21,20 +22,45 @@
     </div>
   </div>
 
- <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-  <div class="flex items-center flex-shrink-0 text-white mr-6">
-    <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-    <span class="font-semibold text-xl tracking-tight">Back+</span>
+<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+  <div class="flex-none px-2 mx-2">
+    <span class="text-lg font-bold ">
+            Back+
+          </span>
+  </div> 
+  <div class="flex-1 px-2 mx-2">
+    <div class="items-stretch hidden lg:flex">
+      <a class="btn btn-ghost btn-sm rounded-btn">
+            Sobre
+            </a> 
+      <a class="btn btn-ghost btn-sm rounded-btn">
+            Comandos
+            </a> 
+      <a class="btn btn-ghost btn-sm rounded-btn">
+            Suporte
+            </a> 
+      <a class="btn btn-ghost btn-sm rounded-btn">
+            infraestrutura
+            </a>
+    </div>
+  </div> 
+  <div class="flex-none">
+        <button class="btn btn-square btn-ghost">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">              
+       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />       
+      </svg>
+    </button>
+  </div> 
+  <div class="flex-none">
+  <button class="btn btn-square btn-ghost">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">             
+       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />   
+      </svg>
+    </button>
   </div>
+</div>
 
- <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-    <div class="text-sm lg:flex-grow">
-    </div>
-    <div>
-      <a href="#" class="hidden md:inline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Adicionar</a>
-    </div>
-  </div>
-</nav>
+
 
 
 <div class="txtps">
@@ -45,13 +71,11 @@
   <p class="opacity-75">Versão Pre-Alpha 0.0.1</p>
 </div>
 
-    <div>
-      <a href="#" class="md:hidden inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Adicionar</a>
-    </div>
 
 
 
-<div class="txtpss">
+
+<div class="txtpss p">
   <p class=" text-center text-2xl "> Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
     Back+ possui uma rede decentralizada super tecnologica que conecta você 
@@ -63,15 +87,23 @@
     Oque garante você ouvir suas musicas, moderar seu servidor, e se divertir
     <br>
     com a melhor qualidade, e o melhor de tudo e 100% gratis !
+    <br>
+    para ver os comandos digite !helpcommands
   </p>
 
+
 </div>
+
+<div class="w-64 ..."><hr/></div>
+
 <footer class="bg-gray-200 text-center lg:text-left">
   <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-gray-800" href="https://tailwind-elements.com/">Tailwind Elements</a>
+    💙 Todos termos e sobre projeto estão em:
+    <a class="text-gray-800" href="https://tailwind-elements.com/">project</a>
   </div>
 </footer>
+
+
 
 </div>
 
@@ -80,9 +112,10 @@
 
 </template>
 
-<script>
 
-</script>
+
+
+
 <script>
 export default {
   name: 'IndexPage'
@@ -101,33 +134,47 @@ iremos testar sua capacidade :)`);
 
 </script>
 
+
 <style>
 
 body {
-  background-color: #202124;
+  background-color: whitesmoke;
 }
 
 .txtps {
    padding-top: 200px;
    padding-left: 40px;
-   color: white
+   color: black
 }
 .txtos {
      padding-left: 40px;
-     color: white
+     color: black
 }
 
 .txtpss {
   padding-top: 400px;
-  color: white
+  color: black
 }
 
 .div2 {
   padding-top: 500px;
-  color: white;
+  color: black;
   font-size: 1.875rem;
 line-height: 2.25rem;
 }
 
+ .twq {
+   padding-left: 40px
+ }
+.p {
+  padding-bottom: 300px
+}
+
+.hr {
+  border-top: 1px solid red;
+}
+
 
 </style>
+
+

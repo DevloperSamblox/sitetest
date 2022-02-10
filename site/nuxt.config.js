@@ -50,6 +50,14 @@ export default {
 
     ],
 
+    tailwindcss: {
+        config: {
+          plugins: [
+            ['daisyui']
+        ]
+        }
+      },
+
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [],
 

@@ -11,8 +11,11 @@
     "dependencies": {
         "bootstrap-vue": "^2.21.2",
         "core-js": "^3.19.3",
+        "daisyui": "^1.25.4",
         "nuxt": "^2.15.8",
         "vue": "^2.6.14",
+        "vue-hacker-text": "^1.0.0",
+        "vue-number-animation": "^1.1.1",
         "vue-server-renderer": "^2.6.14",
         "vue-template-compiler": "^2.6.14",
         "webpack": "^4.46.0"

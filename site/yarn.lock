@@ -3179,6 +3179,11 @@
   "resolved" "https://registry.npmjs.org/cyclist/-/cyclist-1.0.1.tgz"
   "version" "1.0.1"
 
+"daisyui@^1.25.4":
+  "integrity" "sha512-Y9DrFYjjfwK09Fc8/05DhpWgwqhqRuhuH4gMdQxCeZ9dLJ82y5xb6kvwLuK1cWLfCckDOWk3reEKXsciaMHyAw=="
+  "resolved" "https://registry.npmjs.org/daisyui/-/daisyui-1.25.4.tgz"
+  "version" "1.25.4"
+
 "de-indent@^1.0.2":
   "integrity" "sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0="
   "resolved" "https://registry.npmjs.org/de-indent/-/de-indent-1.0.2.tgz"
@@ -4148,6 +4153,11 @@
   "integrity" "sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ=="
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.9.tgz"
   "version" "4.2.9"
+
+"gsap@^3.6.0":
+  "integrity" "sha512-JSGVYoC6da4pIjdF/yxFU6Rz8OojOIDkbooveZlfNg0+JIoFoRruyfWAEi6R/gUeNcuOiTqUIb0gi1nCNrHf8w=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.9.1.tgz"
+  "version" "3.9.1"
 
 "gzip-size@^6.0.0":
   "integrity" "sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q=="
@@ -8739,6 +8749,11 @@
   "resolved" "https://registry.npmjs.org/vue-functional-data-merge/-/vue-functional-data-merge-3.1.0.tgz"
   "version" "3.1.0"
 
+"vue-hacker-text@^1.0.0":
+  "integrity" "sha512-z3pIaFoI+YtxkUdg1qMtp1S4Gs6OLLiVoWj2sHRN8L+pqh7sqBOTlNBjJOfM12MSpkWAEyW4Up5yGlhe+AcHVw=="
+  "resolved" "https://registry.npmjs.org/vue-hacker-text/-/vue-hacker-text-1.0.0.tgz"
+  "version" "1.0.0"
+
 "vue-hot-reload-api@^2.3.0":
   "integrity" "sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog=="
   "resolved" "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
@@ -8766,6 +8781,13 @@
   "integrity" "sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g=="
   "resolved" "https://registry.npmjs.org/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz"
   "version" "1.1.1"
+
+"vue-number-animation@^1.1.1":
+  "integrity" "sha512-xSYZZ50dbfQa0MPtDMECCkPSe6jDU56gPIBRXzfu9G/lFaCMzWyMokRQiHHK3/H/2WXdWGwnuZjpdphurtAHAg=="
+  "resolved" "https://registry.npmjs.org/vue-number-animation/-/vue-number-animation-1.1.1.tgz"
+  "version" "1.1.1"
+  dependencies:
+    "gsap" "^3.6.0"
 
 "vue-router@^3.5.1":
   "integrity" "sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg=="
@@ -8807,7 +8829,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2.0.0", "vue@^2.5.18", "vue@^2.6.12", "vue@^2.6.14":
+"vue@^2.0.0", "vue@^2.5.18", "vue@^2.6.11", "vue@^2.6.12", "vue@^2.6.14":
   "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
   "version" "2.6.14"
