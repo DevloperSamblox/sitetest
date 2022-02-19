@@ -3,6 +3,7 @@
 <div>
   
 
+
     <div class="bg-indigo-600">
     <div class="max-w-7xl mx-auto py-1 px-3 sm:px-7 lg:px-7">
       <div class="flex items-center justify-between flex-wrap">
@@ -30,71 +31,79 @@
   </div> 
   <div class="flex-1 px-2 mx-2">
     <div class="items-stretch hidden lg:flex">
-      <a class="btn btn-ghost btn-sm rounded-btn">
+          
+      <a href="sobre" class="btn btn-ghost btn-sm rounded-btn">
             Sobre
             </a> 
-      <a class="btn btn-ghost btn-sm rounded-btn">
+      <a href="comandos" class="btn btn-ghost btn-sm rounded-btn">
             Comandos
             </a> 
-      <a class="btn btn-ghost btn-sm rounded-btn">
+      <a href="Suporte" class="btn btn-ghost btn-sm rounded-btn">
             Suporte
             </a> 
-      <a class="btn btn-ghost btn-sm rounded-btn">
+      <a href="infraestrutura" class="btn btn-ghost btn-sm rounded-btn">
             infraestrutura
             </a>
     </div>
   </div> 
   <div class="flex-none">
+    <a href="http://google.com" target="_blank">
         <button class="btn btn-square btn-ghost">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">              
        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />       
       </svg>
     </button>
+         </a>
   </div> 
-  <div class="flex-none">
-  <button class="btn btn-square btn-ghost">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">             
-       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />   
-      </svg>
-    </button>
-  </div>
+
 </div>
 
 
 
 
 <div class="txtps">
-<p class="text-2xl app ...">Conheça nosso bot feito em 2022
+
+<p class="text-2xl app ...">   Conheça nosso bot feito em 2022
   <br>este bot foi feito para ajudar controlar seu servidor
   <br>e divertir-lo ao mesmo tempo
   </p>
   <p class="opacity-75">Versão Pre-Alpha 0.0.1</p>
+
 </div>
 
 
 
 
 
-<div class="txtpss p">
+
+
+<div class="txtpss p ">
   <p class=" text-center text-2xl "> Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
-    Back+ possui uma rede decentralizada super tecnologica que conecta você 
+    Back+ possui uma rede incrivel que conecta você 
     <br>
-    em servidores super potentes e com uma internet incrivel
+    em servidores potentes e com internet incrivel
     <br>
     enviamos dados pro discord de forma quase instanea 
     <br>
-    Oque garante você ouvir suas musicas, moderar seu servidor, e se divertir
+    Oque garante você ouvir suas musicas, 
+    <br>moderar seu servidor, e se divertir.
     <br>
-    com a melhor qualidade, e o melhor de tudo e 100% gratis !
+    com a melhor qualidade !
     <br>
     para ver os comandos digite !helpcommands
+    <br>
+    🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
   </p>
 
 
 </div>
 
 <div class="w-64 ..."><hr/></div>
+
+
+
+
 
 <footer class="bg-gray-200 text-center lg:text-left">
   <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -114,7 +123,13 @@
 
 
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
+body {
+font-family: 'Patua One', cursive;
+}
+</style>
 
 <script>
 export default {
@@ -137,10 +152,15 @@ iremos testar sua capacidade :)`);
 
 <style>
 
-body {
-  background-color: whitesmoke;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: whitesmoke;
+
+}
+</style>
+<style>
 .txtps {
    padding-top: 200px;
    padding-left: 40px;
@@ -173,6 +193,7 @@ line-height: 2.25rem;
 .hr {
   border-top: 1px solid red;
 }
+
 
 
 </style>

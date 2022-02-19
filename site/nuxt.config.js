@@ -28,7 +28,7 @@ export default {
         link: [{
             rel: 'icon',
             type: 'image/x-icon',
-            href: '/favicon.ico'
+            href: 'https://icons.veryicon.com/png/o/system/rounded-linear-icon/homepage-27.png'
         }]
     },
 

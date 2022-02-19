@@ -9,9 +9,11 @@
         "generate": "nuxt generate"
     },
     "dependencies": {
+        "@vue/composition-api": "^1.4.6",
         "bootstrap-vue": "^2.21.2",
         "core-js": "^3.19.3",
         "daisyui": "^1.25.4",
+        "flowbite": "^1.3.3",
         "nuxt": "^2.15.8",
         "vue": "^2.6.14",
         "vue-hacker-text": "^1.0.0",
