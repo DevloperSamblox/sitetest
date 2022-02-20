@@ -78,7 +78,7 @@
 
 
 <div class="txtpss p ">
-  <p class=" text-center text-2xl "> Porque usar Back?</p>
+  <p class=" text-center text-2xl "><img src="https://sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple" style="width:400px;height:200px;margin-left:2px;"> Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
     Back+ possui uma rede incrivel que conecta você 
     <br>
@@ -91,9 +91,8 @@
     <br>
     com a melhor qualidade !
     <br>
-    para ver os comandos digite !helpcommands
+       <a class="underline decoration-wavy">para ver os comandos digite !helpcommands</a>
     <br>
-    🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
   </p>
 
 
@@ -170,7 +169,9 @@ body {
      padding-left: 40px;
      color: black
 }
-
+img {
+  float: right;
+}
 .txtpss {
   padding-top: 400px;
   color: black
@@ -194,7 +195,9 @@ line-height: 2.25rem;
   border-top: 1px solid red;
 }
 
-
+.imgform {
+  padding-left: 250px
+}
 
 </style>
 
