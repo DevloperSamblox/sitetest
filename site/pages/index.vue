@@ -78,7 +78,7 @@
 
 
 <div class="txtpss p ">
-  <p class=" text-center text-2xl "><img src="https://sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple" style="width:400px;height:200px;margin-left:2px;"> Porque usar Back?</p>
+  <p class=" text-center text-2xl "><img src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple" style="width:400px;height:200px;margin-left:2px;"> Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
     Back+ possui uma rede incrivel que conecta você 
     <br>
@@ -98,7 +98,8 @@
 
 </div>
 
-<div class="w-64 ..."><hr/></div>
+<div class="w-64 ..."><hr/>
+</div>
 
 
 
@@ -120,7 +121,7 @@
 
 </template>
 
-
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5bec0cc2470743e1b3d62608b8f61a7d"}'></script><!-- End Cloudflare Web Analytics -->
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
