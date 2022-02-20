@@ -67,7 +67,7 @@
   <br>este bot foi feito para ajudar controlar seu servidor
   <br>e divertir-lo ao mesmo tempo
   </p>
-  <p class="opacity-75">Versão Pre-Alpha 0.0.1</p>
+  <p class="opacity-75"><a class="">Versão Pre-Alpha 0.0.2</a></p>
 
 </div>
 
@@ -78,7 +78,8 @@
 
 
 <div class="txtpss p ">
-  <p class=" text-center text-2xl "><img src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple" style="width:400px;height:200px;margin-left:2px;"> Porque usar Back?</p>
+  <p class=" text-center text-2xl "><img class="rotating md-inline" src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple"
+   style="width:400px;height:200px;margin-left:2px;"> Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
     Back+ possui uma rede incrivel que conecta você 
     <br>
@@ -129,6 +130,42 @@
 body {
 font-family: 'Patua One', cursive;
 }
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
 </style>
 
 <script>
@@ -152,12 +189,11 @@ iremos testar sua capacidade :)`);
 
 <style>
 
-  @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 body {
   font-family: 'Cabin', sans-serif;
   background-color: whitesmoke;
-
 }
 </style>
 <style>
