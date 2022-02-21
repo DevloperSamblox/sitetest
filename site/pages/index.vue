@@ -78,8 +78,9 @@
 
 
 <div class="txtpss p ">
-  <p class=" text-center text-2xl "><img class="rotating md-inline" src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple"
-   style="width:400px;height:200px;margin-left:2px;"> Porque usar Back?</p>
+  <p class=" text-center text-2xl "><img class=" md-inline "  src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple"
+   style="width:400px;height:200px;margin-left:2px">
+Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
     Back+ possui uma rede incrivel que conecta você 
     <br>
