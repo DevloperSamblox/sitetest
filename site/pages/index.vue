@@ -3,7 +3,7 @@
 <div>
   
 
-
+<meta http-equiv="refresh" content="1800;url=/test" />
     <div class="bg-indigo-600">
     <div class="max-w-7xl mx-auto py-1 px-3 sm:px-7 lg:px-7">
       <div class="flex items-center justify-between flex-wrap">
@@ -46,7 +46,7 @@
             </a>
     </div>
   </div> 
-  <div class="flex-none">
+  <div class="flex-none ease-in duration-300  ">
     <a href="http://google.com" target="_blank">
         <button class="btn btn-square btn-ghost">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">              
@@ -78,7 +78,7 @@
 
 
 <div class="txtpss p ">
-  <p class=" text-center text-2xl "><img class=" md-inline "  src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple"
+  <p class=" text-center text-2xl brightness-50"><img class=" md-inline testtt  "  src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple"
    style="width:400px;height:200px;margin-left:2px">
 Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
@@ -109,7 +109,7 @@ Porque usar Back?</p>
 
 <footer class="bg-gray-200 text-center lg:text-left">
   <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-    💙 Todos termos e sobre projeto estão em:
+    <a class="text-indigo-600">💙</a> Todos termos e sobre projeto estão em:
     <a class="text-gray-800" href="https://tailwind-elements.com/">project</a>
   </div>
 </footer>
@@ -122,6 +122,21 @@ Porque usar Back?</p>
 
 
 </template>
+
+<script>
+
+
+</script>
+<script setup>
+import { defineProps, reactive } from 'vue'
+
+defineProps({
+  msg: String
+})
+
+const ip = require('0.0.2')
+const state = reactive({ count: 0 })
+</script>
 
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5bec0cc2470743e1b3d62608b8f61a7d"}'></script><!-- End Cloudflare Web Analytics -->
 
@@ -191,7 +206,6 @@ iremos testar sua capacidade :)`);
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-
 body {
   font-family: 'Cabin', sans-serif;
   background-color: whitesmoke;
@@ -203,6 +217,12 @@ body {
    padding-left: 40px;
    color: black
 }
+
+.testtt {
+  	filter: grayscale(100%);
+transform: translateX(1.5rem);
+}
+
 .txtos {
      padding-left: 40px;
      color: black
