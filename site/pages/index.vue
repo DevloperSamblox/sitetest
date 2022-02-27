@@ -91,6 +91,10 @@ Porque usar Back?</p>
     <br>
     com a melhor qualidade !
     <br>
+    atualizações na segurança do site
+    <br>
+    e do bot estão chegando..
+    <br>
        <a class="underline decoration-wavy">para ver os comandos digite !helpcommands</a>
     <br>
   </p>
