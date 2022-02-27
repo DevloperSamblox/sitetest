@@ -1095,6 +1095,11 @@
     "@docsearch/css" "3.0.0-alpha.50"
     "algoliasearch" "^4.0.0"
 
+"@emailjs/browser@^3.4.0":
+  "integrity" "sha512-pTR9wEj0KLrJBVWFfB6IFEwmGIod/6cfN541Y0TVN2+9Bbn+R9a8gq6GeJZ6ggbYs36J3gCTXDyVKhtxjRsjtw=="
+  "resolved" "https://registry.npmjs.org/@emailjs/browser/-/browser-3.4.0.tgz"
+  "version" "3.4.0"
+
 "@gar/promisify@^1.0.1":
   "integrity" "sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw=="
   "resolved" "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.2.tgz"
@@ -1478,13 +1483,6 @@
     "webpack-hot-middleware" "^2.25.0"
     "webpack-node-externals" "^3.0.0"
     "webpackbar" "^4.0.0"
-
-"@nuxtjs/device@^2.1.0":
-  "integrity" "sha512-TYBdt1w2bmCCWp+MhgcBATZtqyUBi3nSdNpcLGILw5USLwCsC/yZtIkq9YisuEzuRnod9w/RZpoE80MxLftEuA=="
-  "resolved" "https://registry.npmjs.org/@nuxtjs/device/-/device-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "defu" "^3.2.2"
 
 "@nuxtjs/tailwindcss@^4.2.1":
   "integrity" "sha512-Sku7VETunn5YmvzkXFDuRdP1gUGau02eh5HtcAsI9//1hpSuEN49n3XhatBrPOXQ57WhUlnjXf0/LjT9KQH0+A=="
@@ -2871,6 +2869,11 @@
 "colorette@^1.2.2":
   "integrity" "sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g=="
   "resolved" "https://registry.npmjs.org/colorette/-/colorette-1.4.0.tgz"
+  "version" "1.4.0"
+
+"colors@^1.4.0":
+  "integrity" "sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA=="
+  "resolved" "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz"
   "version" "1.4.0"
 
 "commander@^2.19.0", "commander@^2.20.0":

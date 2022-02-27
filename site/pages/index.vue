@@ -3,18 +3,17 @@
 <div>
   
 
-<meta http-equiv="refresh" content="1800;url=/test" />
     <div class="bg-indigo-600">
     <div class="max-w-7xl mx-auto py-1 px-3 sm:px-7 lg:px-7">
       <div class="flex items-center justify-between flex-wrap">
         <div class="w-0 flex-1 flex items-center">
           <p class="ml-3 font-medium text-white truncate">
             <span class="md:hidden">
-              Site e bot possivelmente instavel
+              Site e bot possivelmente <a href="/real">i</a>nstavel
             </span>
             
             <span class="align-center hidden md:inline">
-             Estamos em atualizações frequentes, oque pode causar instabilidade no site 
+             Estamos em atualizações frequentes, oque pode causar <a href="/real">i</a>nstabilidade no site 
              ou no bot e poderá resultar em bugs contate o suporte caso ache um !
             </span>
           </p>
@@ -67,7 +66,7 @@
   <br>este bot foi feito para ajudar controlar seu servidor
   <br>e divertir-lo ao mesmo tempo
   </p>
-  <p class="opacity-75"><a class="">Versão Pre-Alpha 0.0.2</a></p>
+  <p class="opacity-75 teste"><a class="count">Versão Pre-Alpha 0.1.0</a></p>
 
 </div>
 
@@ -78,15 +77,14 @@
 
 
 <div class="txtpss p ">
-  <p class=" text-center text-2xl brightness-50"><img class=" md-inline testtt  "  src="https://cdn.statically.io/img/sitearchives.s3.filebase.com/imagem_2022-02-19_211021.png" alt="Pineapple"
-   style="width:400px;height:200px;margin-left:2px">
+  <p class=" text-center text-2xl brightness-50">
 Porque usar Back?</p>
   <p class=" text-center text-1xl opacity-45">
     Back+ possui uma rede incrivel que conecta você 
     <br>
     em servidores potentes e com internet incrivel
     <br>
-    enviamos dados pro discord de forma quase instanea 
+    enviamos dados pro discor<a v-on:click="say('Como es tão esperto, hm ? so posso falar 404')">d</a> de forma quase instanea 
     <br>
     Oque garante você ouvir suas musicas, 
     <br>moderar seu servidor, e se divertir.
@@ -109,7 +107,7 @@ Porque usar Back?</p>
 
 <footer class="bg-gray-200 text-center lg:text-left">
   <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-    <a class="text-indigo-600">💙</a> Todos termos e sobre projeto estão em:
+    <a class="text-indigo-600"><a class="">💙</a></a> Todos termos e sobre projeto estão em:
     <a class="text-gray-800" href="https://tailwind-elements.com/">project</a>
   </div>
 </footer>
@@ -123,22 +121,9 @@ Porque usar Back?</p>
 
 </template>
 
-<script>
-
-
-</script>
-<script setup>
-import { defineProps, reactive } from 'vue'
-
-defineProps({
-  msg: String
-})
-
-const ip = require('0.0.2')
-const state = reactive({ count: 0 })
-</script>
 
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5bec0cc2470743e1b3d62608b8f61a7d"}'></script><!-- End Cloudflare Web Analytics -->
+
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
@@ -198,8 +183,27 @@ deveria entrar na nossa equipe nos precisamos de você
 entre no grupo oficial com o codigo secreto dos hackers
 "208552410230" vamos enteder que você quer entrar pra equipe
 iremos testar sua capacidade :)`); 
+console.log('%cThis is a text with a background color', 'background: #27e887; color: #ffffff');
 
+</script>
 
+<script>
+export default {
+  data () {
+      return {
+          count: 0
+      }
+  },
+  methods: {
+    say: function (message) {
+      alert(message)
+      console.log(`Parabens você me achou hahahaha`);
+      console.log(`não seja experto contando vitoria, não é simples como você imagina.`);
+      console.log('assim como um sinal de + tem um significado na matematica');
+      console.log('aqui tambem tem !')
+    }
+  }
+}
 </script>
 
 

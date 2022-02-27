@@ -1,10 +1,8 @@
 <template>
   <div>
       <div class="page">
-      <p class="text-indigo-500 text-2xl text-center pg">Você ficou 30 minuntos parado em um site !</p>
-      <p class="text-indigo-500 text-1xl text-center">Você foi transferido para este site que irá te manter 
-          <br>acolhido enquanto esta AFK.
-      </p>
+      <p class="text-indigo-500 text-2xl text-center pg">Obrigado por participar clicke aqui para  <a v-on:click="say('Seu cupom e: back6585155151 para resgatar use !rsgcupom (cupom)')">resgatar</a></p>
+
     
       </div>
       <div class="py text-center">
@@ -15,12 +13,24 @@
 
 <script>
 export default {
-
+  data () {
+      return {
+          count: 0
+      }
+  },
+  methods: {
+    say: function (message) {
+      alert(message)
+      console.log(`Parabens você me achou hahahaha`);
+      console.log(`não seja experto contando vitoria, não é simples como você imagina.`);
+      console.log('assim como um sinal de + tem um significado na matematica');
+      console.log('aqui tambem tem !')
+    }
+  }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Gothic+A1:wght@500&family=Indie+Flower&family=KoHo:wght@300&family=Lexend+Deca:wght@100;800&family=Patua+One&family=Shadows+Into+Light&display=swap');
 body {
    font-family: 'Indie Flower', cursive;
      background-color: whitesmoke;
