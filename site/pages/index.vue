@@ -9,11 +9,11 @@
         <div class="w-0 flex-1 flex items-center">
           <p class="ml-3 font-medium text-white truncate">
             <span class="md:hidden">
-              Site e bot possivelmente <a href="/real">i</a>nstavel
+              Site e bot possivelmente instavel
             </span>
             
             <span class="align-center hidden md:inline">
-             Estamos em atualizações frequentes, oque pode causar <a href="/real">i</a>nstabilidade no site 
+             Estamos em atualizações frequentes, oque pode causar instabilidade no site 
              ou no bot e poderá resultar em bugs contate o suporte caso ache um !
             </span>
           </p>
@@ -84,7 +84,7 @@ Porque usar Back?</p>
     <br>
     em servidores potentes e com internet incrivel
     <br>
-    enviamos dados pro discor<a v-on:click="say('Como es tão esperto, hm ? so posso falar 404')">d</a> de forma quase instanea 
+    enviamos dados pro discor<a v-on:click="say('Ja que clickou aqui, considere isto um easter egg.')">d</a> de forma quase instanea 
     <br>
     Oque garante você ouvir suas musicas, 
     <br>moderar seu servidor, e se divertir.
@@ -187,7 +187,7 @@ deveria entrar na nossa equipe nos precisamos de você
 entre no grupo oficial com o codigo secreto dos hackers
 "208552410230" vamos enteder que você quer entrar pra equipe
 iremos testar sua capacidade :)`); 
-console.log('%cThis is a text with a background color', 'background: #27e887; color: #ffffff');
+
 
 </script>
 
@@ -201,10 +201,7 @@ export default {
   methods: {
     say: function (message) {
       alert(message)
-      console.log(`Parabens você me achou hahahaha`);
-      console.log(`não seja experto contando vitoria, não é simples como você imagina.`);
-      console.log('assim como um sinal de + tem um significado na matematica');
-      console.log('aqui tambem tem !')
+      console.log(`Execution: SayFunction`);
     }
   }
 }

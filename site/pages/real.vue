@@ -8,6 +8,8 @@
     <p class="text-indigo-200 text-1xl">Basta resolver o misterio por tras desta pagina.</p>
       <p class="text-indigo-200 text-1xl" v-on:click="say('Um lugar verde que mostra os logs de uma pagina talvez o ... do navegador')">Ajude-me a começar.</p>
 </div>
+ <p>{{ message }}</p>
+
 
   </div>
 </template>
@@ -24,7 +26,10 @@
 export default {
   data () {
       return {
-          count: 0
+          count: 0,
+         
+    message:  new Date().toLocaleString()
+
       }
   },
   methods: {
