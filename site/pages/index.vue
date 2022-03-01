@@ -1,9 +1,8 @@
-
 <template>
 <div>
   
 
-    <div class="bg-indigo-600">
+    <div class="bgprincipal">
     <div class="max-w-7xl mx-auto py-1 px-3 sm:px-7 lg:px-7">
       <div class="flex items-center justify-between flex-wrap">
         <div class="w-0 flex-1 flex items-center">
@@ -102,17 +101,17 @@ Porque usar Back?</p>
 
 </div>
 
-<div class="w-64 ..."><hr/>
+<div class=" ..."><hr>
 </div>
 
 
 
 
 
-<footer class="bg-gray-200 text-center lg:text-left">
-  <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-    <a class="text-indigo-600"><a class="">💙</a></a> Todos termos e sobre projeto estão em:
-    <a class="text-gray-800" href="https://tailwind-elements.com/">project</a>
+<footer class=" text-center lg:text-left text-slate-50">
+  <div class="text-slate-50 text-center p-4" style="">
+    <a class="text-slate-50"><a class=""></a></a> Todos termos e sobre projeto estão em:
+    <a class="text-slate-50" href="https://tailwind-elements.com/">project</a>
   </div>
 </footer>
 
@@ -126,15 +125,17 @@ Porque usar Back?</p>
 </template>
 
 
+
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5bec0cc2470743e1b3d62608b8f61a7d"}'></script><!-- End Cloudflare Web Analytics -->
 
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
 
 body {
-font-family: 'Patua One', cursive;
+font-family: 'Sora', sans-serif;
 }
+
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
@@ -220,7 +221,7 @@ body {
 .txtps {
    padding-top: 200px;
    padding-left: 40px;
-   color: black
+   color:  #142F43
 }
 
 .testtt {
@@ -235,9 +236,14 @@ transform: translateX(1.5rem);
 img {
   float: right;
 }
+
+.bgprincipal {
+  background-color: #142F43
+}
+
 .txtpss {
   padding-top: 400px;
-  color: black
+  color: #142F43
 }
 
 .div2 {
@@ -263,5 +269,4 @@ line-height: 2.25rem;
 }
 
 </style>
-
 
