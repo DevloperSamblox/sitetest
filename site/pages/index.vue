@@ -175,9 +175,6 @@ font-family: 'Sora', sans-serif;
 </style>
 
 <script>
-export default {
-  name: 'IndexPage'
-}
 console.log('\x1b[36m%s\x1b[0m', `Olá, Conheça o console... 
 aqui e um local incrivel
 mas não existe nada que você pode, entedemos que você e um hackerman...
@@ -193,10 +190,10 @@ iremos testar sua capacidade :)`);
 </script>
 
 <script>
-export const app = {
+export default {
   data () {
       return {
-          count: 0
+          count: 98
       }
   },
   methods: {
