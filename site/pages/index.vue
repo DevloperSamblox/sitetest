@@ -193,7 +193,7 @@ iremos testar sua capacidade :)`);
 </script>
 
 <script>
-export default {
+export const app = {
   data () {
       return {
           count: 0
